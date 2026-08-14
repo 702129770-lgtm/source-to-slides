@@ -44,7 +44,7 @@
     "multer": "^2.2.0",
     "openai": "^6.46.0",
     "pdf-parse": "^1.1.4",
-    "pptxgenjs": "^3.12.0",
+    "pptxgenjs": "^4.0.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
