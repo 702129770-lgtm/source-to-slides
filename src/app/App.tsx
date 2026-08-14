@@ -9,7 +9,7 @@ import { apiParser } from '../services/apiParser'
 import { downloadPresentation } from '../services/pptxExporter'
 
 function Brand() {
-  return <a className="brand" href="/" aria-label="GZL PPT 首页"><span className="brand-mark" aria-hidden="true">G</span><span><b>GZL PPT</b><small>SOURCE TO SLIDES</small></span></a>
+  return <a className="brand" href="/" aria-label="Source to Slides 首页"><span className="brand-mark" aria-hidden="true">S</span><span><b>Source to Slides</b><small>EDITABLE PPTX WORKFLOW</small></span></a>
 }
 
 function Stepper({ step }: { step: WizardStep }) {

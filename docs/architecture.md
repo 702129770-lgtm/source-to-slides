@@ -1,6 +1,6 @@
 # Architecture
 
-GZL PPT 是一个面向本地单用户场景的 React + Express 应用。浏览器负责资料选择、逐页编辑、预览和 PPTX 下载；服务端负责文件解析与模型调用。
+Source to Slides 是一个面向本地单用户场景的 React + Express 应用。浏览器负责资料选择、逐页编辑、预览和 PPTX 下载；服务端负责文件解析与模型调用。
 
 ## Data flow
 

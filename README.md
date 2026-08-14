@@ -1,4 +1,4 @@
-<h1 align="center">GZL PPT</h1>
+<h1 align="center">Source to Slides</h1>
 
 <p align="center">
   <strong>把文本与参考文件，变成可校对、可追溯、可继续编辑的 PowerPoint。</strong>
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript 5">
   <img src="https://img.shields.io/badge/OpenAI-Responses%20API-173F3A" alt="OpenAI Responses API">
   <img src="https://img.shields.io/badge/export-editable%20PPTX-F2644B" alt="Editable PPTX">
-  <a href="https://github.com/702129770-lgtm/gzlppt/actions/workflows/ci.yml"><img src="https://github.com/702129770-lgtm/gzlppt/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/702129770-lgtm/source-to-slides/actions/workflows/ci.yml"><img src="https://github.com/702129770-lgtm/source-to-slides/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-173F3A" alt="Apache-2.0 License"></a>
 </p>
 
@@ -29,12 +29,12 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/readme-hero.svg" width="100%" alt="GZL PPT — 从资料到可编辑演示文稿">
+  <img src="docs/assets/readme-hero.svg" width="100%" alt="Source to Slides — 从资料到可编辑演示文稿">
 </p>
 
 ## 为什么做这个项目
 
-常见的 AI PPT 流程要么只生成一段大纲，要么直接交付无法核对来源、难以继续修改的结果。GZL PPT 把生成过程拆成一条可检查的工作流：
+常见的 AI PPT 流程要么只生成一段大纲，要么直接交付无法核对来源、难以继续修改的结果。Source to Slides 把生成过程拆成一条可检查的工作流：
 
 1. **先读资料**：提取文字与可用图片，而不是从空白提示词开始猜。
 2. **再生成结构**：使用严格 JSON Schema 输出指定页数的逐页内容。
@@ -49,8 +49,8 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/product-upload.jpg" alt="GZL PPT 资料输入页面"></td>
-    <td width="50%"><img src="docs/assets/product-editor.jpg" alt="GZL PPT 三栏逐页编辑工作区"></td>
+    <td width="50%"><img src="docs/assets/product-upload.jpg" alt="Source to Slides 资料输入页面"></td>
+    <td width="50%"><img src="docs/assets/product-editor.jpg" alt="Source to Slides 三栏逐页编辑工作区"></td>
   </tr>
   <tr>
     <td><strong>多格式资料输入</strong><br>粘贴主要文字，设置 1–30 页目标，并补充 PPTX、PDF、DOCX 或图片。</td>
@@ -187,7 +187,7 @@ pnpm audit:dependencies
 ## 项目结构
 
 ```text
-gzlppt/
+source-to-slides/
 ├── server/                 # API、资料提取、模型请求与 Deck 生成
 ├── src/
 │   ├── app/                # 应用入口与步骤状态
@@ -233,7 +233,7 @@ gzlppt/
 
 欢迎提交问题、功能建议和改进。开始前请阅读 [贡献指南](CONTRIBUTING.md)；安全问题请不要公开披露，按照 [安全政策](SECURITY.md) 私密报告。
 
-- [提交问题](https://github.com/702129770-lgtm/gzlppt/issues/new/choose)
+- [提交问题](https://github.com/702129770-lgtm/source-to-slides/issues/new/choose)
 - [贡献指南](CONTRIBUTING.md)
 - [行为准则](CODE_OF_CONDUCT.md)
 - [安全政策](SECURITY.md)
@@ -248,9 +248,9 @@ gzlppt/
 
 ## License
 
-GZL PPT 采用 [Apache License 2.0](LICENSE) 开源。使用、修改和分发时请遵守许可证、[NOTICE](NOTICE) 与 [第三方许可说明](THIRD_PARTY_NOTICES.md)。项目名称和视觉身份不随软件许可证授权，详见 [商标说明](TRADEMARKS.md)。
+Source to Slides 采用 [Apache License 2.0](LICENSE) 开源。使用、修改和分发时请遵守许可证、[NOTICE](NOTICE) 与 [第三方许可说明](THIRD_PARTY_NOTICES.md)。项目名称和视觉身份不随软件许可证授权，详见 [商标说明](TRADEMARKS.md)。
 
-GZL PPT 是独立项目，与 OpenAI 或 Microsoft 没有隶属或背书关系。
+Source to Slides 是独立项目，与 OpenAI 或 Microsoft 没有隶属或背书关系。
 
 ---
 

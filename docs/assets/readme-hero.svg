@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
-  <title id="title">GZL PPT — 从资料到可编辑演示文稿</title>
+  <title id="title">Source to Slides — 从资料到可编辑演示文稿</title>
   <desc id="desc">白色编辑工作台界面，使用森林绿、珊瑚红与薄荷绿的原创视觉体系。</desc>
   <defs>
     <pattern id="rules" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -20,8 +20,8 @@
   <g transform="translate(108 92)">
     <g>
       <rect width="44" height="44" rx="11" fill="#173F3A"/>
-      <text x="22" y="31" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">G</text>
-      <text x="60" y="31" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">GZL PPT</text>
+      <text x="22" y="31" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">S</text>
+      <text x="60" y="31" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">Source to Slides</text>
     </g>
 
     <text x="0" y="172" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="62" font-weight="800">把资料变成</text>
@@ -66,8 +66,8 @@
     <path d="M0 66H760" stroke="#DCE5E2"/>
     <g transform="translate(24 16)">
       <rect width="34" height="34" rx="9" fill="#173F3A"/>
-      <text x="17" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800">G</text>
-      <text x="47" y="24" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">GZL PPT</text>
+      <text x="17" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800">S</text>
+      <text x="47" y="24" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Source to Slides</text>
     </g>
     <g transform="translate(310 21)" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11">
       <circle cx="12" cy="12" r="12" fill="#E7EEEC"/><text x="12" y="16" text-anchor="middle" fill="#61706C">1</text><text x="32" y="16" fill="#61706C">资料</text>

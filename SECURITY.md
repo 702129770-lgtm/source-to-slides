@@ -2,13 +2,13 @@
 
 ## Supported version
 
-GZL PPT 目前处于本地 MVP 阶段，只维护 `main` 分支的最新版本。仓库不承诺旧提交或分支仍能获得安全更新。
+Source to Slides 目前处于本地 MVP 阶段，只维护 `main` 分支的最新版本。仓库不承诺旧提交或分支仍能获得安全更新。
 
 ## Reporting a vulnerability
 
 请不要通过公开 Issue 披露漏洞、密钥或可利用细节。使用仓库 **Security** 页面中的 **Report a vulnerability** 私密提交报告：
 
-https://github.com/702129770-lgtm/gzlppt/security/advisories/new
+https://github.com/702129770-lgtm/source-to-slides/security/advisories/new
 
 报告中请包含受影响版本、复现步骤、影响范围和建议修复方式。维护者确认问题后会在公开修复前协调披露时间。
 

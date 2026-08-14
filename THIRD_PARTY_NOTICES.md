@@ -1,6 +1,6 @@
 # Third-party notices
 
-GZL PPT depends on open-source software listed in `package.json` and resolved in `pnpm-lock.yaml`. The repository does not commit `node_modules` or compiled distribution files.
+Source to Slides depends on open-source software listed in `package.json` and resolved in `pnpm-lock.yaml`. The repository does not commit `node_modules` or compiled distribution files.
 
 The direct runtime dependencies use permissive licenses, including MIT, Apache-2.0, ISC, BSD and Zlib terms. Notable combined or embedded notices include:
 

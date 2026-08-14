@@ -1,6 +1,6 @@
-# Contributing to GZL PPT
+# Contributing to Source to Slides
 
-感谢你愿意改进 GZL PPT。为了让问题和合并请求更容易复现、审阅与维护，请遵循下面的流程。
+感谢你愿意改进 Source to Slides。为了让问题和合并请求更容易复现、审阅与维护，请遵循下面的流程。
 
 ## 开始之前
 

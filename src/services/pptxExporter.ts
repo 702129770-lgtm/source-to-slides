@@ -59,7 +59,7 @@ export async function buildPresentation(draft: DeckDraft): Promise<Blob> {
   const { default: PptxGenJS } = await import('pptxgenjs')
   const pptx = new PptxGenJS()
   pptx.layout = 'LAYOUT_WIDE'
-  pptx.author = 'GZL PPT'
+  pptx.author = 'Source to Slides'
   pptx.subject = 'Source-backed editable presentation'
   pptx.title = draft.title
   pptx.company = ''
@@ -73,7 +73,7 @@ export async function downloadPresentation(draft: DeckDraft) {
   const url = URL.createObjectURL(blob)
   const anchor = document.createElement('a')
   anchor.href = url
-  anchor.download = `${draft.title || 'GZL-PPT'}.pptx`
+  anchor.download = `${draft.title || 'Source-to-Slides'}.pptx`
   anchor.click()
   URL.revokeObjectURL(url)
 }

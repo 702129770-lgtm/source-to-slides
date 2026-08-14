@@ -1,17 +1,17 @@
 {
-  "name": "gzlppt",
+  "name": "source-to-slides",
   "private": true,
   "version": "0.1.0",
   "description": "Source-grounded AI presentation builder for editable PowerPoint decks.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/702129770-lgtm/gzlppt.git"
+    "url": "https://github.com/702129770-lgtm/source-to-slides.git"
   },
   "bugs": {
-    "url": "https://github.com/702129770-lgtm/gzlppt/issues"
+    "url": "https://github.com/702129770-lgtm/source-to-slides/issues"
   },
-  "homepage": "https://github.com/702129770-lgtm/gzlppt#readme",
+  "homepage": "https://github.com/702129770-lgtm/source-to-slides#readme",
   "keywords": [
     "ai",
     "powerpoint",
