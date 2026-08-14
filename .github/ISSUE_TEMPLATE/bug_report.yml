@@ -1,0 +1,44 @@
+name: Bug report
+description: 报告可以稳定复现的问题
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿在公开 Issue 中粘贴 API Key、私人资料或未脱敏的上传内容。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 请提供最小、可重复的操作步骤。
+      placeholder: |
+        1. 运行……
+        2. 上传……
+        3. 点击……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      placeholder: macOS 15 / Node.js 22 / Chrome 版本
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 可提供已脱敏的日志或截图。

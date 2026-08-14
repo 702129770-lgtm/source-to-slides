@@ -1,0 +1,69 @@
+{
+  "name": "gzlppt",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Source-grounded AI presentation builder for editable PowerPoint decks.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/702129770-lgtm/gzlppt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/702129770-lgtm/gzlppt/issues"
+  },
+  "homepage": "https://github.com/702129770-lgtm/gzlppt#readme",
+  "keywords": [
+    "ai",
+    "powerpoint",
+    "pptx",
+    "presentation-generator",
+    "openai"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n web,api \"vite --host 127.0.0.1\" \"tsx watch server/index.ts\"",
+    "dev:web": "vite --host 127.0.0.1",
+    "dev:api": "tsx watch server/index.ts",
+    "start": "tsx server/index.ts",
+    "audit:dependencies": "pnpm audit --prod --audit-level high",
+    "build": "tsc -b && vite build",
+    "lint": "tsc -b --pretty false && tsc -p tsconfig.server.json --noEmit --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.468.0",
+    "multer": "^2.2.0",
+    "openai": "^6.46.0",
+    "pdf-parse": "^1.1.4",
+    "pptxgenjs": "^3.12.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^24.13.3",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.4",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vitest": "^3.2.7"
+  }
+}

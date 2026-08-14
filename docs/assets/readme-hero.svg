@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
+  <title id="title">GZL PPT — 从资料到可编辑演示文稿</title>
+  <desc id="desc">白色编辑工作台界面，使用森林绿、珊瑚红与薄荷绿的原创视觉体系。</desc>
+  <defs>
+    <pattern id="rules" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M0 31.5H32" stroke="#1F806D" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#173F3A" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#173F3A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="800" fill="#FFFFFF"/>
+  <rect width="720" height="800" fill="url(#rules)"/>
+  <path d="M70 0V800" stroke="#F2644B" stroke-opacity="0.55"/>
+
+  <g transform="translate(108 92)">
+    <g>
+      <rect width="44" height="44" rx="11" fill="#173F3A"/>
+      <text x="22" y="31" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">G</text>
+      <text x="60" y="31" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">GZL PPT</text>
+    </g>
+
+    <text x="0" y="172" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="62" font-weight="800">把资料变成</text>
+    <text x="0" y="240" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="62" font-weight="800">可校对、可继续</text>
+    <text x="0" y="308" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="62" font-weight="800">编辑的 PPT</text>
+    <path d="M0 328C82 320 156 322 234 327" fill="none" stroke="#F2644B" stroke-width="6" stroke-linecap="round"/>
+
+    <text x="0" y="378" fill="#465652" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="23">读取文字与参考文件，生成 1–30 页结构，</text>
+    <text x="0" y="418" fill="#465652" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="23">逐页确认内容与版式，最后导出可编辑 PPTX。</text>
+
+    <g transform="translate(0 478)" font-family="Inter, Arial, sans-serif">
+      <g>
+        <circle cx="18" cy="18" r="18" fill="#DDF2EB"/>
+        <text x="18" y="23" text-anchor="middle" fill="#1F806D" font-size="11" font-weight="800">01</text>
+        <text x="0" y="61" fill="#173F3A" font-size="15" font-weight="700">SOURCE-GROUNDED</text>
+      </g>
+      <path d="M188 18H232" stroke="#AFC1BC" stroke-dasharray="5 6"/>
+      <g transform="translate(254)">
+        <circle cx="18" cy="18" r="18" fill="#DDF2EB"/>
+        <text x="18" y="23" text-anchor="middle" fill="#1F806D" font-size="11" font-weight="800">02</text>
+        <text x="0" y="61" fill="#173F3A" font-size="15" font-weight="700">HUMAN-REVIEWED</text>
+      </g>
+      <path d="M444 18H488" stroke="#AFC1BC" stroke-dasharray="5 6"/>
+      <g transform="translate(510)">
+        <circle cx="18" cy="18" r="18" fill="#FFF0EC"/>
+        <text x="18" y="23" text-anchor="middle" fill="#F2644B" font-size="11" font-weight="800">03</text>
+        <text x="0" y="61" fill="#173F3A" font-size="15" font-weight="700">EDITABLE PPTX</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 610)">
+      <rect width="174" height="44" rx="9" fill="#173F3A"/>
+      <text x="87" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">APACHE-2.0</text>
+      <rect x="188" width="174" height="44" rx="9" fill="#FFFFFF" stroke="#BCD0CA"/>
+      <text x="275" y="28" text-anchor="middle" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">LOCAL MVP</text>
+    </g>
+  </g>
+
+  <g transform="translate(764 100)" filter="url(#shadow)">
+    <rect width="760" height="600" rx="22" fill="#FFFFFF" stroke="#DCE5E2" stroke-width="2"/>
+    <rect width="760" height="66" rx="22" fill="#FFFFFF"/>
+    <path d="M0 66H760" stroke="#DCE5E2"/>
+    <g transform="translate(24 16)">
+      <rect width="34" height="34" rx="9" fill="#173F3A"/>
+      <text x="17" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800">G</text>
+      <text x="47" y="24" fill="#173F3A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">GZL PPT</text>
+    </g>
+    <g transform="translate(310 21)" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11">
+      <circle cx="12" cy="12" r="12" fill="#E7EEEC"/><text x="12" y="16" text-anchor="middle" fill="#61706C">1</text><text x="32" y="16" fill="#61706C">资料</text>
+      <path d="M74 12H106" stroke="#DCE5E2"/>
+      <circle cx="128" cy="12" r="12" fill="#E7EEEC"/><text x="128" y="16" text-anchor="middle" fill="#61706C">2</text><text x="148" y="16" fill="#61706C">生成</text>
+      <path d="M190 12H222" stroke="#DCE5E2"/>
+      <circle cx="244" cy="12" r="12" fill="#173F3A"/><text x="244" y="16" text-anchor="middle" fill="#FFFFFF">3</text><text x="264" y="16" fill="#173F3A" font-weight="700">编辑</text>
+      <path d="M306 12H338" stroke="#DCE5E2"/>
+      <circle cx="360" cy="12" r="12" fill="#E7EEEC"/><text x="360" y="16" text-anchor="middle" fill="#61706C">4</text><text x="380" y="16" fill="#61706C">导出</text>
+    </g>
+
+    <g transform="translate(0 66)">
+      <rect width="148" height="534" fill="#FBFCFC"/>
+      <path d="M148 0V534M608 0V534" stroke="#DCE5E2"/>
+      <text x="20" y="34" fill="#173F3A" font-family="PingFang SC, sans-serif" font-size="13" font-weight="700">页面</text>
+      <g transform="translate(18 54)">
+        <rect width="112" height="70" rx="7" fill="#FFFFFF" stroke="#173F3A" stroke-width="2"/>
+        <path d="M82 0H112V40L96 54" fill="#173F3A"/>
+        <path d="M88 70H112V48L100 58" fill="#F2644B"/>
+        <text x="12" y="30" fill="#173F3A" font-family="PingFang SC, sans-serif" font-size="9" font-weight="700">让资料成为</text>
+        <text x="12" y="44" fill="#173F3A" font-family="PingFang SC, sans-serif" font-size="9" font-weight="700">可讲的故事</text>
+      </g>
+      <g transform="translate(18 140)">
+        <rect width="112" height="70" rx="7" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <rect x="12" y="15" width="46" height="4" rx="2" fill="#173F3A"/>
+        <rect x="12" y="26" width="80" height="3" rx="2" fill="#C7D3D0"/>
+        <rect x="12" y="36" width="68" height="3" rx="2" fill="#C7D3D0"/>
+      </g>
+      <g transform="translate(18 226)">
+        <rect width="112" height="70" rx="7" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <rect x="12" y="13" width="26" height="44" fill="#173F3A"/>
+        <rect x="48" y="19" width="50" height="4" rx="2" fill="#C7D3D0"/>
+        <rect x="48" y="31" width="42" height="4" rx="2" fill="#C7D3D0"/>
+        <rect x="48" y="43" width="46" height="4" rx="2" fill="#C7D3D0"/>
+      </g>
+
+      <g transform="translate(148)">
+        <rect width="460" height="534" fill="#F4F7F6"/>
+        <rect x="32" y="74" width="396" height="223" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <rect x="32" y="74" width="396" height="223" fill="url(#grid)"/>
+        <path d="M338 74H428V185L382 225" fill="#173F3A"/>
+        <path d="M352 297H428V217L390 250" fill="#F2644B"/>
+        <text x="70" y="170" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="27" font-weight="800">让资料成为</text>
+        <text x="70" y="204" fill="#173F3A" font-family="Songti SC, STSong, serif" font-size="27" font-weight="800">可讲的故事</text>
+        <path d="M70 220H104" stroke="#F2644B" stroke-width="4"/>
+        <rect x="106" y="335" width="250" height="42" rx="8" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <circle cx="132" cy="356" r="11" fill="#DDF2EB"/>
+        <path d="M127 356l4 4 7-9" fill="none" stroke="#1F806D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="152" y="361" fill="#465652" font-family="PingFang SC, sans-serif" font-size="11">内容与版式容量检查通过</text>
+      </g>
+
+      <g transform="translate(608 0)" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+        <text x="20" y="34" fill="#173F3A" font-size="14" font-weight="700">本页内容</text>
+        <path d="M20 45H132" stroke="#173F3A" stroke-width="2"/>
+        <text x="20" y="84" fill="#61706C" font-size="10">标题</text>
+        <rect x="20" y="96" width="112" height="34" rx="6" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <text x="30" y="118" fill="#173F3A" font-size="9">让资料成为可讲的故事</text>
+        <text x="20" y="160" fill="#61706C" font-size="10">正文</text>
+        <rect x="20" y="172" width="112" height="86" rx="6" fill="#FFFFFF" stroke="#DCE5E2"/>
+        <text x="20" y="292" fill="#61706C" font-size="10">版式</text>
+        <g transform="translate(20 308)">
+          <rect width="34" height="32" rx="5" fill="#DDF2EB" stroke="#173F3A"/>
+          <rect x="42" width="34" height="32" rx="5" fill="#FFFFFF" stroke="#DCE5E2"/>
+          <rect x="84" width="28" height="32" rx="5" fill="#FFFFFF" stroke="#DCE5E2"/>
+        </g>
+        <rect x="20" y="404" width="112" height="44" rx="8" fill="#F2644B"/>
+        <text x="76" y="431" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">生成完整预览</text>
+        <rect x="20" y="460" width="112" height="40" rx="8" fill="#FFFFFF" stroke="#173F3A"/>
+        <text x="76" y="485" text-anchor="middle" fill="#173F3A" font-size="11">返回修改</text>
+      </g>
+    </g>
+  </g>
+</svg>

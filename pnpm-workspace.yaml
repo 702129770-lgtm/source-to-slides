@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+auditConfig:
+  ignoreGhsas:
+    # PptxGenJS excludes image-size from its browser build; see SECURITY.md.
+    - GHSA-w3rx-r6r6-pgpr
+    - GHSA-5p2g-fcmc-qvqq

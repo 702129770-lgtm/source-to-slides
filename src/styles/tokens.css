@@ -1,0 +1,23 @@
+:root {
+  --forest: #173f3a;
+  --forest-deep: #0d312d;
+  --coral: #f2644b;
+  --mint: #ddf2eb;
+  --green: #1f806d;
+  --navy: var(--forest);
+  --purple: var(--green);
+  --pink: var(--coral);
+  --cyan: var(--green);
+  --ink: #16211f;
+  --muted: #61706c;
+  --bg: #ffffff;
+  --canvas: #f4f7f6;
+  --surface: rgba(255, 255, 255, 0.96);
+  --surface-solid: #fff;
+  --border: #dce5e2;
+  --shadow: 0 22px 60px rgba(23, 63, 58, 0.08);
+  --font-cn: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-display: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+  --font-en: Inter, Arial, sans-serif;
+  --gradient: var(--coral);
+}
