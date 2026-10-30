@@ -41,7 +41,7 @@
     "express": "^5.2.1",
     "jszip": "^3.10.1",
     "lucide-react": "^0.468.0",
-    "multer": "^2.2.0",
+    "multer": "^2.5.0",
     "openai": "^6.46.0",
     "pdf-parse": "^1.1.4",
     "pptxgenjs": "^3.12.0",
